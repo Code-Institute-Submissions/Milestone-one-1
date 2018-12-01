@@ -212,3 +212,67 @@ margin-top: 2em;
 width:50em;
 height:7px;
 }
+
+
+/* Contact - form  */
+
+.contact {
+ margin-top: 25px;
+ margin-bottom: 25px;
+}
+
+.contactform {
+  margin: 0px auto;
+  width: 750px;
+  border: 7px double #caa229;
+  border-radius: 5px;
+  padding: 7px;
+}
+
+label {
+  display: inline-block;
+  width: 120px;
+  text-align: center;
+}
+
+input, textarea {
+  font: 27px courgette;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid grey;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+.button {
+  padding-left: 90px; 
+}
+
+button {
+ margin-top: 5px;
+  margin-left: .5em;
+}
+
+
+.contact-text {
+ margin-left: 25px;
+ margin-bottom: 50px;
+}
+
+.contact-heading {
+    font-family: "Great Vibes", sans-serif;
+    font-size: 50px;
+    margin-top: 25px;
+    color: black;
+ 
+}
+
+.contact-sub-heading {
+ font-family: courgette;
+ font-size: 30px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
