@@ -145,8 +145,10 @@
     border-color: #ffc107 !important;
 }
 
- .class2 {
-    font-family: "Roboto", sans-serif;
+/* About me */
+
+ .titles {
+    font-family: "Courgette", sans-serif;
     font-weight: 200;
     font-size: 20px;
     margin-top: 20px;
@@ -162,34 +164,33 @@
     margin-bottom: 5px;
     color: white;
 } 
-.imgOne {
+.aboutme-img {
       height: 300px;
       width: 500px;
-      background: url("assets/images/music.jpg");
+      background-color: grey;
       margin-top: 10px;
       margin-left: 25px;
       margin-right: 10px;
       margin-bottom: 10px;
+      border-style: double;
+      border-color: #caa229;
+      border-width: 5px;
   }
-.imgTwo {
-      height: 300px;
-      width: 500px;
-      background: url("assets/images/piano3.jpg");
-      margin-top: 10px;
-      margin-left: 25px;
-      margin-right: 10px;
-      margin-bottom: 10px;
+  
+#aboutme-img-one {
+       background: url("../images/music.jpg");
 }
-.imgThree {
-      height: 300px;
-      width: 500px;
-      background: url("assets/images/header.jpg");
-      margin-top: 10px;
-      margin-left: 25px;
-      margin-right: 10px;
-      margin-bottom: 10px;
-  }
-.ubermich {
+
+#aboutme-img-two {
+       background: url("../images/piano3.jpg");
+}
+
+#aboutme-img-three {
+       background: url("../images/header.jpg");
+}
+
+  
+.aboutme {
   margin-top: 10px;
   margin-left: 25px;
   margin-right: 10px;
@@ -197,7 +198,17 @@
   font-family: "Roboto", sans-serif;
 }
 
-.ubermich h2 {
-  font-family: 'Great Vibes', cursive;
+.aboutme h2 {
+  font-family: 'Courgette', cursive;
   font-size: 35px;
+}
+
+div.line {
+background: #caa229 center;
+margin-left: 5em;
+margin-right: 5em;
+margin-bottom: 2em;
+margin-top: 2em;
+width:50em;
+height:7px;
 }
