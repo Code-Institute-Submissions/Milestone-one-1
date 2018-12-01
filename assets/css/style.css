@@ -42,7 +42,7 @@
 }
 
 .btn-search {
-    margin-top: px !important;
+    margin-top: 8px !important;
     color: #caa229 !important;
     background-color: transparent;
     background-image: none;
@@ -118,7 +118,8 @@
 }
 
  .newsimg {
-   background-color: grey;
+    overflow: hidden;
+    background-color: white;
     height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -127,13 +128,19 @@
     border-width: 5px;
     
   }
+ 
+ .newsimage > img {
+  width: 100%;
+ }
   
 #newsimg-one {
-  background: url("../images/pianopractise.jpg");
+  position:relative;
+  top:-100px;
 }
 
 #newsimg-two {
-  background: url("../images/angelnight.jpg");
+  position:relative;
+  top:-500px;
 }
 
 /* Home - Card */
