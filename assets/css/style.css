@@ -1,19 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700| Exo:100,200,300,400,500,600,700');
+
+/* Header */
+
  .name {
-    font-family: "Roboto", sans-serif;
+    font-family: "Great Vibes", sans-serif;
     font-weight: 100;
-    font-size: 46px;
+    font-size: 98px;
     margin-top: 50px;
-    color: white;
+    color: #f1e7d7;
     
 }
  .class {
-    font-family: "Roboto", sans-serif;
+    font-family: "Great Vibes", sans-serif;
     font-weight: 200;
-    font-size: 28px;
+    font-size: 58px;
     margin-top: 20px;
     margin-bottom: 90px;
-    color: white;
+    color: #f1e7d7;
 }
  .jumbotron {
     background: url("../images/piano2.jpg");
@@ -23,6 +26,25 @@
     min-height: 360px;
     border-radius: 0;
 }
+
+/* Nav */
+
+.nav-item {
+  font-family: 'Great Vibes', cursive;
+  font-size: 35px;
+  margin-right: 7px;
+}
+
+.btn-outline-success {
+    color: #ffc107 !important;
+    background-color: transparent;
+    background-image: none;
+    border-color: #ffc107 !important;
+}
+
+
+/* Footer */
+
  footer {
     background: url("../images/piano2.jpg");
     color: #fafafa;
@@ -32,24 +54,35 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#footer-details {
+ position: relative;
+ margin-left: 40px;
+}
+
+.social-text {
+    font-family: "Great Vibes", sans-serif;
+    font-weight: 200;
+    font-size: 34px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #f1e7d7;
+}
  .social-links {
     padding-bottom: 15px;
     
 }
  .social-links li a i{
-    width: 56px;
-    height: 56px;
+    width: 75px;
+    height: 75px;
     padding: 12px;
     border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
+    border-color: white;
+    font-size: 45px;
+    line-height: 45px;
     text-align: center;
-    color: black;
-    background: #333a41;
-    transition: all 0.25s ease-in-out;
-    -moz-transition: all 0.25s ease-in-out;
-    -webkit-transition: all 0.25s ease-in-out;
-    -o-transition: all 0.25s ease-in-out;
+    background-color: #f1e7d7;
+    color: #333a41;
 }
  .class2 {
     font-family: "Roboto", sans-serif;
