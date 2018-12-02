@@ -411,3 +411,14 @@ tr:nth-child(2) td {
 .timeline {
     margin-left: 50px;
 }
+
+.future-events {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.events {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
