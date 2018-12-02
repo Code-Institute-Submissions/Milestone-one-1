@@ -185,14 +185,14 @@ footer {
     border-width: 5px;
 }
 
-.btn-aboutme {
+.btn-gold {
     color: #caa229 !important;
     background-color: transparent;
     background-image: none;
     border-color: #caa229 !important;
 }
 
-.btn-aboutme:hover {
+.btn-gold:hover {
     color: #ffc107 !important;
     background-color: transparent;
     background-image: none;
@@ -368,7 +368,7 @@ button {
 
 }
 
-.contact-sub-heading {
+.sub-headings {
     font-family: courgette;
     font-size: 30px;
     margin-top: 10px;
