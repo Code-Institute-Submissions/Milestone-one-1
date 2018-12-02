@@ -5,17 +5,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-  <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+  <link rel="stylesheet" href="assets/css/style.1.css" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Courgette|Lobster" rel="stylesheet">
+
 </head>
 <body>
  
  <!-- header --> 
 
 <div class="jumbotron text-center" style="margin-bottom:0">
-  <a class="name" href="index.html">Thomas Fligge</h1>
+  <a class="name" href="index.html">Thomas Fligge</a>
   <p class="class"> Music Teacher, Organist and Composer</p> 
 </div>
 
@@ -30,22 +31,22 @@
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="meine-musik.html">My music</a>
+        <a class="nav-link" href="aboutme.html">About me</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="uber-mich.html">About me</a>
+        <a class="nav-link" href="music.html">My Music</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="auftritte.html">Events</a>
+        <a class="nav-link" href="events.html">Events</a>
       </li> 
       <li class="nav-item">
-        <a class="nav-link" href="kontakt.html">Contact</a>
+        <a class="nav-link" href="contact.html">Contact</a>
       </li>  
     </ul>
     <div class="ml-auto">
      <form class="form-inline">
     <input class="form-control mr-sm-2" type="search" placeholder="I'm looking for.." aria-label="Search">
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    <button class="btn btn-search my-2 my-sm-0" type="submit">Search</button>
   </form>
   </div>
   </div>  
@@ -53,13 +54,16 @@
 
  <!-- /navigation --> 
  
- 
-  <!-- About Me --> 
-  
-  <div class="aboutme"> 
-<h2> Timeline </h2></div>
 
- <div class="timeline">
+<div class="aboutmediv">
+<section class="container-fluid">
+  
+  <div class="row mt-4">
+    <div class="col-12 col-sm-6">
+        <div class="aboutme"> 
+<div class="timeline aboutme">
+     <h2> Timeline </h2></div>
+     
   <table cellspacing="0">
         <tr>
             <td>1960</td> <td>1970</td> <td>1980</td> <td>1990</td>
@@ -85,20 +89,12 @@
     </table>
     </div>
 
-<section class="container-fluid">
-  
-  <div class="row mt-4">
-    <div class="col-12 col-sm-6">
-        <div class="aboutme"> 
-<h2> Curriculim Vitae </h2>
-
-<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla aut tempora error animi doloribus accusantium, eius sequi illum molestiae neque quidem, corporis sint facilis. Sint asperiores eaque officia saepe, nesciunt itaque aliquid enim cumque explicabo! Obcaecati distinctio quidem possimus pariatur, commodi, quibusdam sequi. Recusandae voluptatum beatae debitis ex quisquam reiciendis?</p>
-<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae nostrum tenetur hic illo harum natus sit officiis repellendus impedit ipsam, cumque, obcaecati earum cum consectetur, fugit consequatur eum deleniti illum porro veniam. Fugit, veritatis, delectus!</p>
-<p> Nulla aut tempora error animi doloribus accusantium, eius sequi illum molestiae neque quidem, corporis sint facilis. Sint asperiores eaque officia saepe, nesciunt itaque aliquid enim cumque explicabo! Obcaecati distinctio quidem possimus pariatur, commodi, quibusdam sequi. Recusandae voluptatum beatae debitis ex quisquam reiciendis?</p></div>      
 
     </div>
     <div class="col-12 col-sm-6">
-        <div class="aboutme-img" id="aboutme-img-one">
+        <div class="aboutme-img">
+        <img id="aboutme-img-one"src="assets/images/pp2.jpg" alt="Piano Practise">
+      </div>
     </div>
 </div>
 
@@ -106,8 +102,10 @@
 
 <div class="row">
     <div class="col-12 col-sm-6">
-        <div class="aboutme-img" id="aboutme-img-two"> </div>
-    </div>
+        <div class="aboutme-img">
+        <img id="aboutme-img-one"src="assets/images/guitar.jpg" alt="Piano Practise">
+      </div>
+      </div>
     <div class="col-12 col-sm-6">
         <div class="aboutme"> 
 <h2> Teaching </h2>
@@ -132,11 +130,12 @@
 
     </div>
     <div class="col-12 col-sm-6">
-        <div class="aboutme-img" id="aboutme-img-three">
+        <div class="aboutme-img">
+        <img id="aboutme-img-one"src="assets/images/pp2.jpg" alt="Piano Practise">
+      </div>
     </div>
 </div>
-      
-
+</div>
 </section>
 
 <!-- /About Me --> 
@@ -144,22 +143,22 @@
 <!-- footer --> 
   <footer>
         <div id="footer-details" class="row">
-             <div class="col-4">
+             <div class="col-4 text-center">
                  <h5 class="social-text">Instagram</h5>
                   <ul class="list-inline social-links">
-                        <li><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a target="_blank" href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram"></i></a></li>
                     </ul>
             </div>
-            <div class="col-4">
+            <div class="col-4 text-center">
                  <h5 class="social-text">Facebook</h5>
                   <ul class="list-inline social-links">
-                        <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
                     </ul>
             </div>
-             <div class="col-4">
+             <div class="col-4 text-center">
                  <h5 class="social-text">Youtube</h5>
                   <ul class="list-inline social-links">
-                        <li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
+                        <li><a target="_blank" href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a></li>
                     </ul>
             </div>
             
