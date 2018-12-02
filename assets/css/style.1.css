@@ -161,11 +161,13 @@ footer {
 #newsimg-one {
     position: relative;
     top: -100px;
+    width: 100%;
 }
 
 #newsimg-two {
     position: relative;
-    top: -500px;
+    top: -150px;
+    width: 100%;
 }
 
 /* Home - Card */
@@ -230,6 +232,7 @@ footer {
     border-style: double;
     border-color: #caa229;
     border-width: 5px;
+    margin-top: 10px;
 
 }
 
@@ -269,7 +272,6 @@ footer {
     margin-right: 5em;
     margin-bottom: 2em;
     margin-top: 2em;
-    width: 50em;
     height: 7px;
 }
 
@@ -319,7 +321,7 @@ tr:nth-child(2) td {
 
 .contactform {
     margin: 0px auto;
-    width: 750px;
+    width: 75%;
     border: 7px double #caa229;
     border-radius: 5px;
     padding: 7px;
@@ -329,12 +331,14 @@ label {
     display: inline-block;
     width: 120px;
     text-align: center;
+    font-family: Great Vibes;
+    font-size: 20px;
 }
 
 input,
 textarea {
-    font: 27px courgette;
-    width: 300px;
+    font: 15px courgette;
+    width: 75%;
     box-sizing: border-box;
     border: 1px solid grey;
 }
@@ -345,7 +349,7 @@ textarea {
 }
 
 .button {
-    padding-left: 90px;
+    padding-left: 116px;
 }
 
 button {
@@ -421,4 +425,14 @@ tr:nth-child(2) td {
 .events {
     margin-bottom: 50px;
     margin-top: 50px;
+}
+
+#utube {
+    width: 100%;
+    height: 100%;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 18rem;
 }
