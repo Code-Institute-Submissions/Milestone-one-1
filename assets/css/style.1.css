@@ -38,6 +38,18 @@
 
 .nav-link {
     color: rgba(255,255,255,0.8)!important;
+     transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #caa229 !important;
+     transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
 }
 
 .nav-item {
@@ -100,6 +112,19 @@
     text-align: center;
     background-color: #f1e7d7;
     color: #333a41;
+    transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+}
+
+.social-links li a i:hover{
+    background-color: #caa229;
+    color: #333a41;
+    transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
 }
 
 /* Home - News */
