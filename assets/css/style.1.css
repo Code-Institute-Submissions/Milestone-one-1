@@ -159,16 +159,17 @@ footer {
 }
 
 #newsimg-one {
-    position: relative;
-    top: -100px;
     width: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 #newsimg-two {
-    position: relative;
-    top: -150px;
     width: 100%;
+    object-fit: cover;
+    object-position: center;
 }
+
 
 /* Home - Card */
 
