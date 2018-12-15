@@ -10,11 +10,13 @@
  Features Left to Implement
  The search bar is currently not functional and the contact form itself cannot be used yet. I am planning to implement those as soon as I have completed the necessary stage of the course
  # Technologies Used
- HTML5
-CSS3
-Bootstrap https://getbootstrap.com/ - used for basic structures and grid 
-FontAwesome - for social media icons in the footer
-GoogleFonts - for additonal fonts Courgette and Great Vibes
+
+**HTML5**
+**CSS3**
+**Bootstrap** https://getbootstrap.com/ - used for basic structures and grid 
+**FontAwesome** - https://fontawesome.com/ for social media icons in the footer
+**GoogleFonts** https://fonts.google.com/ - for additonal fonts Courgette and Great Vibes
+
  # Testing
 I tested this project in different browsers (Safari / GoogleChrome / Internet Explorer) and on mobile
  # Credits
