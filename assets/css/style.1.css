@@ -225,28 +225,10 @@ footer {
 
 
 .aboutme-img {
-    overflow: hidden;
-    background-color: white;
-    height: 350px;
-    background-repeat: no-repeat;
-    background-size: cover;
     border-style: double;
     border-color: #caa229;
     border-width: 5px;
-    margin-top: 10px;
 
-}
-
-#aboutme-img-one {
-    background: url("../images/music.jpg");
-}
-
-#aboutme-img-two {
-    background: url("../images/piano3.jpg");
-}
-
-#aboutme-img-three {
-    background: url("../images/header.jpg");
 }
 
 
