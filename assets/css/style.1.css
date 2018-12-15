@@ -419,3 +419,9 @@ tr:nth-child(2) td {
     object-fit: cover;
     height: 18rem;
 }
+
+
+.music-titles {
+    font-family: "Courgette", sans-serif;
+    font-size: 6px;
+}
