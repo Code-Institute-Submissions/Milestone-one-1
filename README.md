@@ -1,4 +1,4 @@
-### Milestone One 
+# Milestone One 
 
 This is the first of five Milestones for the Code Institute Full Stack Developer Course. I decided to make a homepage for an artist with the purpose of showcasing their music by providing examples, allowing to be contacted for projects and all in all introducing themselves to an existing and potential audience
 
@@ -6,7 +6,7 @@ The website is aimed at the arists fanbase which are not tech-savvy and need cle
 
 I created wireframes in Balsamiq, a link can be found here --> https://balsamiq.cloud/s74acfz/p7k2tvx
 
-# Key Features
+### Key Features
 
 
 1) Music
@@ -20,7 +20,7 @@ Features Left to Implement
 The search bar is currently not functional and the contact form itself cannot be used yet. I am planning to implement those as soon as I have completed the necessary stage of the course
 
 
-# Technologies Used
+### Technologies Used
 
 HTML5
     - CSS3
@@ -28,17 +28,16 @@ HTML5
     - FontAwesome https://fontawesome.com/ - for social media icons in the footer 
     - GoogleFonts https://fonts.google.com/ - for additonal fonts Courgette and Great Vibes
 
-# Testing
+### Testing
 I tested this project in different browsers (Safari / GoogleChrome / Internet Explorer) and on mobile
 
-# Credits
+### Credits
 
-Content
 
-Media
+
 1)The photos used in this site were obtained from pixabay.com
 
 2)The music used in this site was obtained from https://www.youtube.com/audiolibrary/music
 
-3) The video  used in this site was obtained from youtube https://www.youtube.com/watch?v=qtQgbdmIO30
+3)The video used in this site was obtained from youtube https://www.youtube.com/watch?v=qtQgbdmIO30
 
